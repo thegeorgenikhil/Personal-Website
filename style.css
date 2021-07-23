@@ -296,6 +296,22 @@ p::selection {
 /* RESPONSIVE @ 990px*/
 
 @media screen and (max-width:990px){
+
+    nav{
+        margin: 0 1rem;
+        margin-top: 20px;
+
+    }
+
+    .nav-brand{
+        font-size: 1rem;
+    }
+    
+    .nav-link-container{
+        font-size: 12px;
+        align-self: center;
+    }
+
     .hero{
         display: flex;
         flex-direction: column-reverse;
@@ -319,11 +335,6 @@ p::selection {
         display: block;
         text-align: center;
     }
-
-    nav{
-        margin-top: 20px;
-    }
-
     .section-container{
         max-width: 600px ;
         padding: 1rem 0;
@@ -362,8 +373,8 @@ p::selection {
     }
 
     .project-section{
-        max-width: 300px;
-        margin: 0rem auto;
+        min-width: 300px;
+        margin: 0rem 2rem;
     }
 
     .project-heading{
