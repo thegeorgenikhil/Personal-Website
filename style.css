@@ -30,6 +30,7 @@
 body{
     background-color: var(--bg-color) ;
     color: var(--font-color);
+    
 }
 
 header{
@@ -225,7 +226,7 @@ footer{
 
 .summary{
     font-family: var(--font-lato);
-    width: 600px;
+    max-width: 600px;
     margin: 1rem 0 2rem 0;
     font-size: 1.3rem;
 }
@@ -353,4 +354,34 @@ p::selection {
         margin: auto;
         margin-bottom: 1rem;
     }
+
+    /* PROJECTS */
+
+    .hero-sub-heading{
+        font-size: 2rem ;
+    }
+
+    .project-section{
+        max-width: 300px;
+        margin: 0rem auto;
+    }
+
+    .project-heading{
+        font-size: 2rem;
+    }
+
+    .project-content{
+        padding: 2rem 1rem;
+    }
+
+    .summary{
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .button-container{
+        display: flex;
+    }
+
+   
 }
