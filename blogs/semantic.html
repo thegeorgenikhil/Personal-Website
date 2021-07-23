@@ -4,23 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil George | Web Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Semantic HTML</title>
+    <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/a7cf34d87a.js" crossorigin="anonymous" ></script>
 
 </head>
 <body>
     <header>
         <nav class="font-pf">
-            <div class="nav-brand"><a class="nav-links" href="/index.html">nikhilgeorge.</a></div>
+            <div class="nav-brand"><a class="nav-links" href="../index.html">nikhilgeorge.</a></div>
             <div class="nav-link-container">
-                <a class="nav-links" href="/"><span class="highlight">home</span></a>
-                <a class="nav-links" href="/projects.html">projects</a>
-                <a class="nav-links" href="/blogs.html">blogs</a>
+                <a class="nav-links" href="../index.html">home</a>
+                <a class="nav-links" href="../projects.html">projects</a>
+                <a class="nav-links" href="../blogs.html">blogs</a>
             </div>
         </nav>
     </header>
-    
+
+    <main class="blog-post">
+        <h1 class="blog-heading">Beginners Guide on Writing Semantic HTML</h1>
+        <small class="blog-date">20 July 2021</small>
+
+        <article class="blog-content">
+            <h2 class="blog-sub-heading">What is Semantic HTML?</h2>
+            <figure class="blog-img-container" ><img class="blog-img" src="../img/semantic.png" alt=""></figure>
+
+            <p class="blog-text">Semantic HTML basically means writing HTML in way that gives meaning to each of our HTML elements in code. It clearly specifies the meaning of the content inside the tags to both the developer and the browser.</p>
+            <aside class="blog-text">
+                <p>Examples of non-semantic elements: <code>&lt;div&gt;,&lt;span&gt;</code></p>
+                <p>Examples of semantic elements: <code>&lt;form&gt;,&lt;aside&gt;,&lt;figure&gt;</code></p>
+            </aside>
+
+            <h2 class="blog-sub-heading">Semantic Elements in HTML</h2>
+            <figure class="blog-img-container" ><img class="blog-img" src="../img/semantic-diag.png" alt=""></figure>
+
+            <article>
+                <h2 class="blog-sub-heading">1. <code>&lt;section&gt;</code></h2>
+                <p class="blog-text">Section tags are used to define a particular section in a webpage. Inside the section tag we can group together contents of similar type/category.</p>
+
+                <h2 class="blog-sub-heading">2. <code>&lt;h1&gt; to &lt;h6&gt;</code></h2>
+                <p class="blog-text">Heading tags are used to convey headings. The heading tags give the text utmost importance than normal text elements. They also come with a default styling. The h1 to h6 tags are given according to their varying importance from top to bottom.</p>
+
+                <h2 class="blog-sub-heading">3. <code>&lt;article&gt;</code></h2>
+                <p class="blog-text">The article tag is used to represent individual  sections in a webpage. Article tags are used mostly inside containers or sections. A given document can have multiple articles in it. One of the use cases of the article tag is in blogs, where each blog post can be enclosed in separate article tags.</p>
+
+                <h2 class="blog-sub-heading">4. <code>&lt;aside&gt;</code></h2>
+                <p class="blog-text">The aside tag is used to represent a particular section of text which may be indirectly related to the main content. Asides are frequently presented as sidebars or call-out boxes.</p>
+
+                <h2 class="blog-sub-heading">5. <code>&lt;header&gt;</code></h2>
+                <p class="blog-text">The header tags are used to represent introductory content in a page, for example: the hero section,which the user sees first in enclosed in the header tag. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</p>
+
+                <h2 class="blog-sub-heading">6. <code>&lt;footer&gt;</code></h2>
+                <p class="blog-text">Similar to header the footer tag is used to represent the footer of a document or section. It may contain authorship information, copyright information, contact information , related-links etc.</p>
+
+                <h2 class="blog-sub-heading">7. <code>&lt;nav&gt;</code></h2>
+                <p class="blog-text">The nav tag is used to contain a section that help the user navigate the site by using navigation-links within. Only the important links are enclosed in the nav tag. Common examples of navigation sections are menus, tables of contents, and indexes.</p>
+
+                <h2 class="blog-sub-heading">8. <code>&lt;figure&gt;</code></h2>
+                <p class="blog-text">A figure element is used to contain images, illustrations. etc.The <code>&lt;figcaption&gt;</code> element is used to add a caption for the <code>&lt;figure&gt;</code> element</p>
+
+
+
+
+
+            </article>
+
+        </article>
+    </main>
 
     <footer>
         <h1 class="section-heading highlight">connect with me</h1>
