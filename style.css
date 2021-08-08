@@ -374,7 +374,6 @@ p::selection {
     
     .social-container{
         margin-top: 0;
-        flex-direction: column;
     }
 
     .social-icons{
