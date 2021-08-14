@@ -377,8 +377,9 @@ p::selection {
     }
 
     .social-icons{
-        padding: 0rem 1rem;
-        margin: auto;
+        font-size: 2rem;
+        padding: 0rem 0rem;
+        margin: auto 1rem;
         margin-bottom: 1rem;
     }
 
